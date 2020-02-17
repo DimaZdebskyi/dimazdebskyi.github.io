@@ -40,4 +40,12 @@ jQuery(document).ready(function($) {
               .end().filter("[href=#" + id + "]").parent().addClass("active-item");
       }
   });
+  $(".showMore").click(function() {
+      $(".hidden").css("display", "block");
+      $(this).css("display", "none");
+  });
+  $(".hide").click(function() {
+    $(".hidden").css("display", "none");
+    $(".showMore").css("display", "block");
+});
 });  
