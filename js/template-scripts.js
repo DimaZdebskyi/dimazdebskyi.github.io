@@ -41,7 +41,7 @@ jQuery(document).ready(function($) {
       }
   });
   $(".showMore").click(function() {
-      $(".hidden").css("display", "block");
+      $(".hidden").css("display", "list-item");
       $(this).css("display", "none");
   });
   $(".hide").click(function() {
