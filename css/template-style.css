@@ -443,7 +443,6 @@ a.tab-label:hover, a.tab-label.active-btn {
 	font-size: 0.85em;
 }
 #contact {
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	background: none repeat scroll 0 0 #fff;
 	clear: both;
 }
