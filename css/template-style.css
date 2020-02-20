@@ -1219,8 +1219,30 @@ p.form-success {
 .info-box {
   min-height: 382px;
 }
-
-
+.contact-box {
+  min-height: 178px;
+}
+.customPadding {
+  padding: 1.5rem!important;
+}
+@media screen and (max-width:1440px) {
+  .text-size-20 {
+      font-size: 18px !important;
+      line-height: 1.4;
+  }
+  .margin-bottom-30 {
+    margin-bottom: 18px !important;
+  }
+}
+@media screen and (max-width:1100px) {
+  .text-size-20 {
+      font-size: 16px !important;
+      line-height: 1.2;
+  }
+  .margin-bottom-30 {
+    margin-bottom: 15px !important;
+  }
+}
 
 /* -768px version */
 @media screen and (max-width:768px) {
