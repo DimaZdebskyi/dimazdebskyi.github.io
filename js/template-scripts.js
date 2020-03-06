@@ -79,3 +79,16 @@ jQuery(document).ready(function($) {
     }
   });   
 });
+let open = false;
+$(".more").click(function() {
+  if(!open){
+    $(".hidden").css("display", "block");
+    $(".more").text("Менше");
+    open = true
+  }else {
+    $(".hidden").css("display", "none");
+    $(".more").text("Більше");
+    open = false
+  }
+
+});
