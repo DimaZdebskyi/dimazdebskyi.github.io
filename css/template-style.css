@@ -658,6 +658,9 @@ aside.aside-left {
 .padding {
   padding: 1.25rem!important;
 }
+.padding_bottom_1 {
+  padding-bottom: 1px;
+}
 .padding-2x {
   padding: 2.5rem!important;
 }
