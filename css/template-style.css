@@ -83,6 +83,10 @@ h6.headline, .h6.headline {
   font-size: 40px !important;
   line-height: 1.4;
 }
+.text-size-48, .text-l-size-48 {
+  font-size: 48px !important;
+  line-height: 1.4;
+}
 .text-size-50, .text-l-size-50 {
   font-size: 50px !important;
   line-height: 1.4;
@@ -663,6 +667,9 @@ aside.aside-left {
 }
 .padding-2x {
   padding: 2.5rem!important;
+}
+.padding-2x3 {
+  padding: 2.3rem!important;
 }
 .full-width:after {
   clear:both;
